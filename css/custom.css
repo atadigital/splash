@@ -1,0 +1,58 @@
+body {
+  background: lightblue;
+}
+
+.top-bar {
+  border-bottom: 5px solid orange;
+  background: #fff;
+}
+
+.title-area {
+  padding: 20px 0;
+}
+
+.title h1,
+.title h2 {
+  text-align: center;
+  color: #fff
+}
+
+.title > .columns {
+  vertical-align: middle;
+  height: 300px;
+}
+
+.middle-row {
+  background: rgba(0,0,0,0.2);
+}
+
+i {
+  font-size: 3.5rem;
+  color: red;
+}
+
+.middle-row p {
+  text-align: center;
+}
+
+.middle-row h3 {
+  text-align: center;
+  font-size: 1em;
+}
+
+.middle-row .columns {
+  padding: 25px 0;
+  height: 250px;
+}
+
+.middle-row .columns:hover {
+  background: rgba(1,1,1,0.5);
+}
+
+.middle-row .columns:hover h3 {
+  color: #fff;
+}
+
+.middle-row .columns:hover i {
+  color: #fff;
+}
