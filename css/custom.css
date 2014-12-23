@@ -1,14 +1,32 @@
 body {
-  background: lightblue;
+  background: rgb(0,114,162);
+  font-family: "ff-dagny-web-pro";
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: "ff-dagny-web-pro";
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+
 .top-bar {
-  border-bottom: 5px solid orange;
   background: #fff;
 }
 
 .title-area {
   padding: 20px 0;
+}
+
+.title {
+  height: 500px;
+  padding: 160px 0 0 0;
 }
 
 .title h1,
@@ -23,12 +41,14 @@ body {
 }
 
 .middle-row {
-  background: rgba(0,0,0,0.2);
+  padding: 50px 0;
+  background: rgba(0,85,121,0.25);
+  margin-bottom: 50px;
 }
 
 i {
   font-size: 3.5rem;
-  color: red;
+  color: #e05857;
 }
 
 .middle-row p {
@@ -49,7 +69,13 @@ i {
   background: rgba(1,1,1,0.5);
 }
 
-.middle-row .columns:hover h3 {
+.middle-row h2{
+  color: #fff;
+  text-align: center;
+}
+
+.middle-row .columns h3,
+.middle-row .columns h3 a {
   color: #fff;
 }
 
