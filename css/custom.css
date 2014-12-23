@@ -29,10 +29,14 @@ h2 {
   padding: 160px 0 0 0;
 }
 
-.title h1,
+.title h1 {
+    text-align: center;
+    color: #0974a4;
+}
+
 .title h2 {
   text-align: center;
-  color: #fff
+  color: #7b7c80;
 }
 
 .title > .columns {
