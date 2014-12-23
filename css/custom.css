@@ -1,5 +1,4 @@
 body {
-  background: rgb(0,114,162);
   font-family: "ff-dagny-web-pro";
 }
 
@@ -16,8 +15,9 @@ h2 {
 }
 
 
-.top-bar {
-  background: #fff;
+.wrapper {
+  background: url(../img/background.jpg) no-repeat;
+  background-size: cover;
 }
 
 .title-area {
@@ -40,10 +40,17 @@ h2 {
   height: 300px;
 }
 
+.title img {
+  height: 110px;
+}
+
+.title p {
+  text-align: center;
+}
+
 .middle-row {
   padding: 50px 0;
-  background: rgba(0,85,121,0.25);
-  margin-bottom: 50px;
+  background: #0273a3 url(../img/pattern.png);
 }
 
 i {
@@ -66,7 +73,7 @@ i {
 }
 
 .middle-row .columns:hover {
-  background: rgba(1,1,1,0.5);
+  background: rgba(0,0,0,0.25);
 }
 
 .middle-row h2{
